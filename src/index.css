@@ -1,0 +1,307 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #E5E5E5;
+  min-height: 100vh;
+  display: flex;
+  margin: 0px;
+  border: 0px; 
+  padding: 0px;
+ 
+}
+.Container{
+  margin: 0px;
+  border: 0px; 
+  padding: 0px;
+}
+body, html, .App, #root, .auth-wrapper{
+  width: 100%;
+  height: 100%;
+}
+.wrapper{
+  margin-top: 3rem;
+}
+.col-md-6{
+  margin-left: 50px;
+}
+
+
+/* FONT */
+h1{
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  
+  
+}
+h2{
+  margin-top:6vw;
+ 
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+h4{
+ 
+  line-height: 4rem;
+}
+hr{
+  margin-left: -10vw;
+  background-color: #155547;
+}
+h5{
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+desc{
+  font-size: 0.2em;
+}
+/* NAVBAR */
+
+.navbar{
+  background-color: #EB4F20;
+  color: #F9F8F0;
+  height: 10%;
+  position: sticky;
+}
+
+.navbar  a {
+  color: #F9F8F0;
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin: 5px 10px 5px 10px;
+}
+.navbar  a:hover {
+  color: #F9F8F0;
+  text-decoration: none;
+}
+.logo {
+  color: white;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.4em;
+  
+}
+.subnav{
+  background-color: #663B9C;
+}
+
+.subnav li a {
+  margin: 0px 20px 0px 20px;
+
+}
+
+/* HOME */
+.home{
+  background-color: #FFFFF4;
+  border-radius: 0px 0px 100px 100px;
+}
+video{
+  width: 19rem;
+  margin-bottom: 60px;
+}
+
+.list{
+  margin: 0px 20px 0px 20px ; 
+}
+
+/* CARD */
+.card{
+  border-radius:'100px';
+  border: none;
+
+
+}
+.tittle{
+  display: flex;
+}
+
+/* SIDENAV */
+.sideNav {
+  background: #EB4F20;
+}
+
+.sidebar {
+  margin: 0px 0px 0px 0px;
+  font-size: 18px;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  color: #fff;
+  background: #EB4F20;
+
+}
+.leftbar{
+  width: 5%;
+  background: #155547;
+  height: 100%;
+  position: fixed;
+  margin-left: 30%;
+}
+.sidebar .nav-link{
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.rightnav{
+  background-color: white;
+  width: 70%;
+  float: right;
+}
+
+.rightnav li a {
+  color: #FF9373;
+}
+.FormInner{
+  width: 70%;
+  float: right;
+}
+
+.link{
+  margin-top: 10vw;
+}
+
+.rightnav ul li {
+  margin: 20px 20px 20px 20px ; 
+  font-weight: 700;
+  
+}
+
+
+.form-regis{
+  margin: 30px 40px 40px 40px;
+}
+form{
+  text-align: left;
+}
+form label {
+  margin: 10px 0px 10px 15px;
+}
+.form-control{
+  background: #D6D6D6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+}
+/* PROFIL-PIC */
+.profil-pic{
+  margin: 10% 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ABOUT */
+.box{
+  width:60%;
+  margin: 0% 22% 0%  22%;
+  
+}
+.identity{
+  margin-top: 4vw;
+}
+
+/* PROFILTALENT */
+.bg{
+  background-color: #C4C4C4;
+  height: 10vw;
+}
+.profil-picture{
+  margin-top: -50%;
+}
+.username p{
+  font-size: 12px;
+}
+.center{
+  margin-left: 37%;
+}
+.bottom{
+  margin-top: 200px;
+}
+.username{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+.input-rate{
+  width:50%;
+  border-radius: 25px;
+  display: flex;
+  
+}
+
+.rate{
+  border: none;
+ 
+}
+input[class="hallo"] {
+  width: 100%;
+  border-radius: 25px;
+  border:none;
+  box-shadow: 0 0 .625em rgba(204,204,204,.4);
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 40;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
+.shadow{
+  border-radius: 50px;
+  justify-content: left;
+
+
+}
+.flex{
+  display: flex;
+}
+.inputbox{
+  border: none;
+  margin: 10px;
+  margin-bottom: 40px;
+  text-align: left;
+  justify-content: left;
+}
+.imageSlider{
+ width: 100%;
+}
